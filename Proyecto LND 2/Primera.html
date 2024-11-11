@@ -19,10 +19,12 @@
         </header>
 
         <main>
-            <form>
+            <form action="https://webhook.site/31b97d0b-c927-423b-8407-b4f02315322e" method="POST">
+                <fieldset>
+                <input type="hidden"; name="nombre_apellidos"; value="Joel Hilario Gil Viedma">
                 <p>Introduce tu usuario</p>
                 <input type="text">
-                <p>Introduce un gmail</p>
+                <p>Introduce tu gmail</p>
                 <input type="email">
                 <p>Selecciona los atributos para el escalado</p>
                 <label>
@@ -34,6 +36,7 @@
                 <p>
                     <label>
                         <select>
+                            <option>selecciona una categoría</option>
                             <option>Alabardas</option>
                             <option>Arcos</option>
                             <option>Arcos grandes</option>
@@ -61,27 +64,33 @@
                         </select>
                     </label>
                 </p>
-                <label>
-                    <p>Enviar formulario</p>
-                        <input type="submit">
-                </label>
-                <label>
-                    <p>Reiniciar formulario</p>
-                        <input type="reset">
-                </label>
+                    <label>
+                        <input type="submit"; name="enviar_datos"; value="Enviar">
+                    </label>
+                    <label>
+                        <input type="reset"; name="borrar_datos"; value="Borrar">
+                    </label>
+                    <br>
+                    <br>
+                </fieldset>
             </form>
         </main>
 
         <section>
             <h3>Categoría de armas</h3>
-            <p>Aquí hay una muestra de las distintas <a href="tabla_categorias.html"; title="categorias">categorías de armas</a></p>
+            <p>Aquí hay una muestra de las distintas <b><a href="Categorías de Armas.html"; title="categorias">categorías de armas</a></b>.</p>
             
             <h3>Escalado</h3>
-            <p>Aquí puedes ver los distintos <a href="Tipos_Escalados.html"; title="escalados";>estadísticas</a> con los que un arma puede escalar</p> 
+            <p>Aquí puedes ver los distintos <b><a href="Atributos para el escalado.html"; title="escalados";>estadísticas</a></b> con los que un arma puede escalar.</p> 
         </section>
 
         <aside>
             <h4>Wiki de referencia</h4>
-            <p><a href="https://darksouls.fandom.com/es/wiki/Wiki_Dark_Souls">Wiki Dark Souls</a></p>
+            <p><a href="https://darksouls.fandom.com/es/wiki/Wiki_Dark_Souls">Wiki Dark Souls</a>.</p>
         </aside>    
+
+        <footer>
+            <p>© 2024 Armas Oscuras. Todos los derechos reservados.</p>
+            <p id="demo"></p>
+        </footer>
    </body>

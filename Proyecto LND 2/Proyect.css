@@ -1,11 +1,12 @@
 body{
-    background-color: rgb(0, 0, 0);
-    color: rgb(133, 62, 15);
+    background-color: rgba(125, 182, 175, 0.767);
+    color: rgb(242, 240, 235);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header{
-    background-color: rgba(75, 32, 13, 0.616);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
@@ -13,27 +14,74 @@ header{
 
 
 main{
-    background-color: rgba(139, 137, 135, 0.616);
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
     text-align: center;
     color:black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
+main, fieldset{
+    background-color:  rgba(255, 255, 255, 0.8);
+}
+
 section{
-    background-color: rgb(0, 0, 0);
+    text-indent: 1em;
+    background-color: rgba(140, 144, 144, 0.849);
+    padding: 5px;
+}
+
+section a{
+    color: rgb(242, 240, 235);
+    text-decoration: none;
+}
+
+section a:hover{
+    text-decoration: underline;
 }
 
 aside{
-    background-color: rgba(75, 32, 13, 0.616);
-    padding: 20px;
+    background-color: rgba(84, 91, 90, 0.874);
+    padding: 5px;
     text-align: center; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+aside a{
+    color: rgb(242, 240, 235);
+    text-decoration: none;
+}
+
+aside a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    font-size: 50%;
+}
+
+footer a{
+    color: rgb(242, 240, 235);
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+table, caption{
+    background-color: rgb(242, 240, 235);
+    border: 5px solid rgb(0, 0, 0);
+    align-content: left;
+}
+
 table, td {
-    border: 1px solid rgb(255, 255, 255); 
-    border-collapse: collapse; 
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(242, 240, 235); 
+    border-collapse: collapse;
     text-align: center;
 }
 
