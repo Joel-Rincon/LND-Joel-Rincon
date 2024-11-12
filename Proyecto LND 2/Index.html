@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Wiki Armas Dark Souls</title>
+        <link rel="stylesheet" href="Proyecto.css">
+        <script src="Proyecto.js" defer></script>
+    </head>
+ 
+   
+   <body>
+        <header>
+            <h1>A R M A S _ O S C U R A S</h1>
+            <h2>En esta web puedes buscar un arma para volver a pasarte <i>Dark Souls</i></h2>
+            <p>Puedes probar a usar una <i>build</i> distinta a la que usaste la última vez o buscar más armas con las que jugar tu build favorita. Para ello puedes elegir tu arma según una categoría para uno o más escalados o directamente según su escalado</p>
+            <!--Build es básicamente como repartes las estadísticas de tu personaje, para que sea un guerrero con mucha vida, un mago, un ladrón que ataca a distancia o un clérigo por ejemplo-->
+            <!--El escalado es daño adicional que se suma al daño que hace el arma, según el nivel de las estadísticas de fuerza, destreza, inteligencia, fe y/o humanidad de tu personaje-->
+        </header>
+
+        <main>
+            <table>
+                <tr>
+                    <td>
+                        <form action="https://webhook.site/7d580ff9-65b4-42eb-b1e2-c67d9a7a1667" method="POST">
+                                <input type="hidden" name="nombre_apellidos" value="Joel Hilario Gil Viedma">
+                                <p>Introduce tu usuario</p>
+                                <input type="text" name="nombre_usuario" value="usuario">
+                                <p>Introduce tu gmail</p>
+                                <input type="email" name="nombre_gmail" value="gmail">
+                                <p>Selecciona los atributos para el escalado</p>
+                                <label>
+                                    <input type="checkbox" name="estadística" value="fuerza">Fuerza
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="estadística" value="destreza">Destreza
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="estadística" value="inteligencia">Inteligencia
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="estadística" value="fe">Fe
+                                </label>
+
+                                <p>Selecciona una categoría de arma</p>
+                                <label>
+                                    <select name="categoria_armas">
+                                        <option>selecciona una categoría</option>
+                                        <option value="alabardas">Alabardas</option>
+                                        <option value="arcos">Arcos</option>
+                                        <option value="arcos_grandes">Arcos grandes</option>
+                                        <option value="ballestas">Ballestas</option>                            
+                                        <option value="catalizadores">Catalizadores</option>
+                                        <option value="dagas">Dagas</option>
+                                        <option value="espadas_curvas">Espadas curvas</option>
+                                        <option value="espadas_estocadas">Espadas estocadas</option>
+                                        <option value="espadas_rectas">Espadas rectas</option>
+                                        <option value="espadones">Espadones</option>
+                                        <option value="espadones_curvos">Espadones curvos</option>
+                                        <option value="faroles">Faroles</option>
+                                        <option value="guanteletes">Guanteletes</option>
+                                        <option value="hachas">Hachas</option>
+                                        <option value="hachas_grandes">Hachas grandes</option>
+                                        <option value="katanas">Katanas</option>
+                                        <option value="lanzas">Lanzas</option>
+                                        <option value="lanzas_largas">Lanzas largas</option>
+                                        <option value="látigos">Látigos</option>
+                                        <option value="llama_de_piromancia">Llama de piromancia</option>
+                                        <option value="martillos">Martillos</option>
+                                        <option value="martillos_grandes">Martillos grandes</option>
+                                        <option value="talismanes">Talismanes</option>
+                                        <option value="ultraespadones">Ultraespadones</option>
+                                    </select>
+                                </label>
+                                
+                                <br>
+                                <br>
+            
+                                <label>
+                                    <input type="submit" name="enviar_datos" value="Enviar">
+                                </label>
+            
+                                <label>
+                                    <input type="reset" name="borrar_datos" value="Borrar">
+                                </label>
+                                <br>
+                                <br>
+                            </form>
+                    </td>
+                </tr>
+            </table>
+                
+        </main>
+
+        <section>
+            <h3>Categoría de armas</h3>
+            <p>Aquí hay una muestra de las distintas <b><a href="Categorías_de_Armas.html" title="categorias">categorías de armas</a></b>.</p>
+            
+            <h3>Escalado</h3>
+            <p>Aquí puedes ver los distintos <b><a href="Atributos_para_el_escalado.html" title="escalados">estadísticas</a></b> con los que un arma puede escalar.</p> 
+        </section>
+
+        <aside>
+            <h4>Wiki de referencia</h4>
+            <p><a href="https://darksouls.fandom.com/es/wiki/Wiki_Dark_Souls">Wiki Dark Souls</a>.</p>
+        </aside>    
+
+        <footer>
+            <p>© 2024 Armas Oscuras. Todos los derechos reservados.</p>
+            <p id="demo"></p>
+        </footer>
+   </body>

@@ -9,7 +9,6 @@ header{
     border-color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 
@@ -17,8 +16,7 @@ main{
     background-color: rgba(255, 255, 255, 0.8);
     padding: 25px;
     text-align: center;
-    color:black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color:black; 
 }
 
 main, fieldset{
@@ -44,7 +42,6 @@ aside{
     background-color: rgba(84, 91, 90, 0.874);
     padding: 5px;
     text-align: center; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 aside a{
@@ -72,9 +69,16 @@ footer a:hover{
     text-decoration: underline;
 }
 
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 table, caption{
     background-color: rgb(242, 240, 235);
-    border: 5px solid rgb(0, 0, 0);
+    border-top: 3px solid rgb(0, 0, 0);
+    border-left: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
     align-content: left;
 }
 
@@ -85,9 +89,10 @@ table, td {
     text-align: center;
 }
 
+/*
 caption{ 
     padding: 20px;
     border: 1px solid rgb(255, 255, 255); 
     border-collapse: collapse; 
     text-align: center;
-}
+}*/
