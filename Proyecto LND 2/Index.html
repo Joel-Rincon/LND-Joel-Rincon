@@ -10,15 +10,23 @@
  
    
    <body>
-        <header>
+        <div class="grid-container">
+            <header>
             <h1>A R M A S _ O S C U R A S</h1>
             <h2>En esta web puedes buscar un arma para volver a pasarte <i>Dark Souls</i></h2>
             <p>Puedes probar a usar una <i>build</i> distinta a la que usaste la última vez o buscar más armas con las que jugar tu build favorita. Para ello puedes elegir tu arma según una categoría para uno o más escalados o directamente según su escalado</p>
             <!--Build es básicamente como repartes las estadísticas de tu personaje, para que sea un guerrero con mucha vida, un mago, un ladrón que ataca a distancia o un clérigo por ejemplo-->
             <!--El escalado es daño adicional que se suma al daño que hace el arma, según el nivel de las estadísticas de fuerza, destreza, inteligencia, fe y/o humanidad de tu personaje-->
-        </header>
+            </header>
+            <div>
+                <ul>
+                    <li><a class="active" href="main">Formulario</a></li>
+                    <li><a href="section">Tabla y Atributos</a></li>
+                    <li><a href="aside">Referencia</a></li>
+                  </ul>
+            </div>
 
-        <main>
+            <main>
             <table>
                 <tr>
                     <td>
@@ -90,23 +98,24 @@
                 </tr>
             </table>
                 
-        </main>
+            </main>
 
-        <section>
+            <section>
             <h3>Categoría de armas</h3>
             <p>Aquí hay una muestra de las distintas <b><a href="Categorías_de_Armas.html" title="categorias">categorías de armas</a></b>.</p>
             
             <h3>Escalado</h3>
             <p>Aquí puedes ver los distintos <b><a href="Atributos_para_el_escalado.html" title="escalados">estadísticas</a></b> con los que un arma puede escalar.</p> 
-        </section>
+            </section>
 
-        <aside>
+            <aside>
             <h4>Wiki de referencia</h4>
             <p><a href="https://darksouls.fandom.com/es/wiki/Wiki_Dark_Souls">Wiki Dark Souls</a>.</p>
-        </aside>    
+            </aside>    
 
-        <footer>
+            <footer>
             <p>© 2024 Armas Oscuras. Todos los derechos reservados.</p>
             <p id="demo"></p>
-        </footer>
+            </footer>
+        </div>
    </body>
