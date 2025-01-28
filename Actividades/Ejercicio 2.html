@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h1>4. Crea una variable con un número y muestra por consola el número anterior y el siguiente</h1>
+    <script>
+        let número = 1;
+
+        número--;
+        console.log("El número anterior al 1 es: ", número);
+        número++;
+        número++;
+        console.log("Y el numero posterior al 1 es: ", número);
+    </script>
+    <h1>5. Calcula el área de un rectángulo</h1>
+    <script>
+        let largoRectángulo = 3;
+        let anchoRectángulo = 2;
+
+        console.log("El área del rectángulo es: ", largoRectángulo*anchoRectángulo);
+    </script>
+    <h1>6. Intercambia los valores de dos variables. Utiliza una variable temporal para guardar el dato</h1>
+    <script>
+        let primero = "la leche";
+        let luego = "los cereales";
+
+        console.log("Para un bol de leche con cereales, primero se hecha", primero, "y luego", luego);
+        let intercambio = primero;
+        primero = luego;
+        luego = intercambio;
+        console.log("Para un bol de leche con cereales, primero se hecha", primero, "y luego", luego);
+    </script>
+</body>
+</html>
