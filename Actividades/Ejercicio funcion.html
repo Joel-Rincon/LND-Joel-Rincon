@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio funcion</title>
+</head>
+<body>
+    <h1>Dados tres números, escribe una función que devuelva el número mayor</h1>
+    <script>
+        let a = prompt("Escribe el valor de a");
+        a = Number(a)
+        let b = prompt("Escribe el valor de b");
+        b = Number(b)
+        let c = prompt("Escribe el valor de c");
+        c = Number(c)
+
+        let resultado = comparador (a, b, c)
+
+        function comparador (x, y, z) {
+            if (a > b && a > c) {
+            console.log(a, " es mayor que ", b, " y ", c)
+            }
+            else {
+                if ( b > a && b > c) {
+                    console.log(b, " es mayor que ", a, " y ", c)
+                }
+                else {
+                    console.log(c, " es mayor que ", a, " y ", b)
+                }
+            }
+        }
+        console.log(comparador)
+
+        /*
+        if (a > b && a > c) {
+            console.log(a, " es mayor que ", b, " y ", c)
+        }
+        else {
+            if ( b > a && b > c) {
+                console.log(b, " es mayor que ", a, " y ", c)
+            }
+            else {
+                console.log(c, " es mayor que ", a, " y ", b)
+            }
+        }*/
+    </script>
+</body>
+</html>

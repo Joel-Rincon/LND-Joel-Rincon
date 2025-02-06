@@ -7,15 +7,66 @@
 </head>
 <body>
     <h2>Escribe un programa que lea un número por pantalla y muestre en la consola si es mayor que 10.</h2>
-    <script></script>
+    <script>
+        let numero1 = prompt("Escribe un número");
+
+        if (numero1<10) {
+            console.log(numero1, " no es mayor que 10");
+        }
+        else {
+            console.log(numero1, " es mayor o igual que 10");
+        }
+    </script>
     <h2>Con el mismo número anterior, indica si el número es positivo o negativo</h2>
-    <script></script>
+    <script>
+        let numero2 = prompt("Escribe un número");
+
+        if (numero2<0) {
+            console.log(numero2, " es negativo");
+        }
+        else {
+            console.log(numero2, " es positivo");
+        }
+    </script>
     <h2>Indica si el número está dentro del rango 3 - 7</h2>
-    <script></script>
+    <script>
+        let numero3 = prompt("Escribe un número");
+
+        if (numero3>=3 && numero3 <=7) {
+            console.log(numero3, " está en el rango");
+        }
+        else {
+            console.log(numero3, " no está en el rango");
+        }
+    </script>
     <h2>Indica si el número está dentro del rango 10-20 o entre el rango 21-30</h2>
-    <script></script>
+    <script>
+        let numero4 = prompt("Escribe un número");
+
+        if (numero4>=10 && numero4 <=20 || numero4>=21 && numero4 <=30) {
+            console.log(numero4, " está en el rango");
+        }
+        else {
+            console.log(numero4, " no está en el rango");
+        }
+    </script>
     <h2>Crea un programa que lea una calificación (0 a 100) y muestre en la consola la letra equivalente:</h2>
-    <script></script>
+    <script>
+        let numero5 = prompt("Escribe un número");
+
+        if (numero5 <70) {
+            console.log("Tú nota es una D");
+        }
+        if (numero5>=70 && numero5 <=79) {
+            console.log("Tú nota es una C");
+        }
+        if (numero5>=80 && numero5 <=89) {
+            console.log("Tú nota es una B");
+        }
+        if (numero5>=90 && numero5 <=100) {
+            console.log("Tú nota es una A");
+        }
+    </script>
     <p>A: 90-100</p>
     <p>B: 80-89</p>
     <p>C: 70-79</p>
