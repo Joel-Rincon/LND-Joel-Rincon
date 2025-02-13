@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fin de año</title>
+</head>
+<body>
+    <p></p>
+    <script>
+        let i = 10;
+        let contador = 1;
+
+        let cuentaAtras = setInterval (cuentaAtras2, 1000)
+        function cuentaAtras2() {
+            console.log("Quedan ", i," segundos antes de las campanadas ");
+            i--;
+            if (i<1) {
+                clearInterval(cuentaAtras);
+            }
+        }
+
+        setTimeout(espera,10000);
+
+        function espera() {
+            let uvas = setInterval (campanas, 1000)
+            function campanas() {
+                console.log("Come la uva nº ",contador);
+                contador++;
+                if (contador>12) {
+                    clearInterval(uvas);
+                }
+            }
+        }
+    </script>
+</body>
+</html>
